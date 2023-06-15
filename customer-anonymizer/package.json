@@ -1,0 +1,19 @@
+{
+  "name": "customer-anonymizer",
+  "version": "1.0.0",
+  "description": "An application to anonymize customer data",
+  "main": "dist/sync.js",
+  "scripts": {
+    "start": "node dist/sync.js",
+    "build": "tsc"
+  },
+  "author": "Roman Yufimov",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "mongodb": "^4.1.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.3"
+  }
+}

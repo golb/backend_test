@@ -1,0 +1,18 @@
+{
+  "name": "emulator-app",
+  "version": "1.0.0",
+  "description": "Ecommerce emulator",
+  "main": "app.ts",
+  "scripts": {
+    "start": "ts-node app.ts"
+  },
+  "author": "Roman Yufimov",
+  "license": "MIT",
+  "dependencies": {
+    "@faker-js/faker": "^0.0.2",
+    "dotenv": "^10.0.0",
+    "mongodb": "^4.1.3",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.4"
+  }
+}
